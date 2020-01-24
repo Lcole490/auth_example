@@ -1,0 +1,23 @@
+{
+  "name": "auth_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "mongoose-timestamp": "^0.6.0",
+    "node-gyp": "^6.1.0",
+    "node-pre-gyp": "^0.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
